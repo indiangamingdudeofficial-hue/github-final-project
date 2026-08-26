@@ -1,0 +1,15 @@
+Command:
+
+curl -L -s https://api.github.com/repos/YOUR_USERNAME/mcino-Introduction-to-Git-and-GitHub | grep -A 10 '"parent"'
+
+
+Terminal Output:
+
+"parent": {
+    "id": 123456789,
+    "node_id": "R_kgDOExample",
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    ...
+}
